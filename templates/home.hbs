@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: aqua;
+        }
+        .container{
+            display: block;
+            margin: auto;
+            height:400px;
+            width:400px;
+            border:1px solid black;
+            text-align: center;
+            background-color: rgb(55, 128, 230);
+        }
+    </style>
+</head>
+<body>
+    {{!-- <h1>The temperature of {{city}} is {{temp}} degree celsius </h1> --}}
+    <div class="container">
+        
+        <h1>{{city}}({{country}})</h1>
+        <br>
+        <h1>{{temp}} <sup>o</sup> C</h1>
+        <br>
+        <h1>{{desc}}</h1>
+        
+
+    </div>
+    
+</body>
+</html>
